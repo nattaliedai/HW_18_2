@@ -2,29 +2,34 @@
     display: flex; 
     justify-content: space-between; 
     background-color: #e2e2e2;
+    height: 100px;
 }
-.logoandname {
-    display: flex; 
-    padding-left: 60px;
-}
-.navigation .logoandname img {
+.navigation img {
+    padding-left: 40px;
     padding-top: 20px;
 }
-.navigation .logoandname p {
-    padding-left: 15px; 
-    font-size: 36px; 
-    font-family: 'Work Sans', sans-serif;
-}
-.menu ul {
-    padding-top: 25px;
+.navigation .menu .menuoptions {
+    padding-top: 45px;
     padding-right: 40px;
 }
-.navigation .menu li {
+.navigation .menu .menuoptions a {
     display: inline; 
-    padding-left: 20px; 
-    padding-right: 20px; 
+    padding-right: 20px;
+    line-height: 1.0; 
     font-size: 24px; 
     font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.navigation .menu label {
+    padding-right: 40px;
+    padding-top: 30px;
+    font-size: 50px;
+    line-height: 1.0;
+    display: none;
+}
+#toggle {
+    display: none;
 }
 .projects p {
     text-align: center;
@@ -133,3 +138,11 @@
     font-size: 18px; 
     font-family: 'Work Sans', sans-serif; 
     color: #ffffff;}
+@media only screen and (max-width: 1000px) {
+    .navigation .menu label {
+        display: inline-block;
+    }
+    .navigation .menu .menuoptions {
+        display: none;
+    }
+}
