@@ -1,7 +1,6 @@
 .navigation {
     display: flex; 
-    justify-content: space-between; 
-    background-color: #e2e2e2;
+    justify-content: space-between;
     height: 100px;
 }
 .navigation img {
@@ -35,26 +34,23 @@
     text-align: center;
     font-size: 36px;
     font-family: 'Work Sans', sans-serif;
+    margin-bottom: 50px;
 }
 .helloproject {
-    height: 320px;
+    margin: 0 auto;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
-    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
 }
-.helloproject img{
-    padding-left: 240px;
-}
-.helloproject .helloprojectdescription {
-    padding-right: 240px;
-}
-.helloproject .helloprojectdescription h2 {
+.helloproject .helloprojectdescription p {
+    text-align: center;
     font-size: 24px;
     font-family: 'Work Sans', sans-serif;
 }
-.helloproject .helloprojectdescription h3 {
-    font-size: 18px; 
-    font-family: 'Work Sans', sans-serif;
+.helloproject .helloprojectdescription .button {
+    display: flex;
+    justify-content: center;
 }
 .helloproject .helloprojectdescription button {
     background-color: #e2e2e2;
@@ -64,24 +60,21 @@
     font-size: 18px;
 }
 .nisicproject {
-    height: 320px;
+    margin: 0 auto;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
-    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
 }
-.nisicproject img{
-    padding-left: 240px;
-}
-.nisicproject .nisicprojectdescription {
-    padding-right:180px;
-}
-.nisicproject .nisicprojectdescription h2 {
+.nisicproject .nisicprojectdescription p {
+    text-align: center;
     font-size: 24px;
     font-family: 'Work Sans', sans-serif;
 }
-.nisicproject .nisicprojectdescription h3 {
-    font-size: 18px; 
-    font-family: 'Work Sans', sans-serif;
+.nisicproject .nisicprojectdescription .button {
+    display: flex;
+    justify-content: center;
 }
 .nisicproject .nisicprojectdescription button {
     background-color: #e2e2e2;
@@ -91,24 +84,21 @@
     font-size: 18px;
 }
 .cookingmattersproject {
-    height: 320px;
+    margin: 0 auto;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
-    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
 }
-.cookingmattersproject img{
-    padding-left: 240px;
-}
-.cookingmattersproject .cookingmattersprojectdescription {
-    padding-right: 140px;
-}
-.cookingmattersproject .cookingmattersprojectdescription h2 {
+.cookingmattersproject .cookingmattersprojectdescription p {
+    text-align: center;
     font-size: 24px;
     font-family: 'Work Sans', sans-serif;
 }
-.cookingmattersproject .cookingmattersprojectdescription h3 {
-    font-size: 18px; 
-    font-family: 'Work Sans', sans-serif;
+.cookingmattersproject .cookingmattersprojectdescription .button {
+    display: flex;
+    justify-content: center;
 }
 .cookingmattersproject .cookingmattersprojectdescription button {
     background-color: #e2e2e2;
@@ -119,7 +109,7 @@
 }
 .footer {
     text-align: center; 
-    margin-top: 10px; 
+    margin-top: 80px; 
     padding-top: 10px; 
     padding-bottom: 10px; 
     background-color: #6B6B6B;
