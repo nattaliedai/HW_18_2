@@ -38,19 +38,14 @@
 }
 .helloproject {
     margin: 0 auto;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-bottom: 80px;
 }
 .helloproject .helloprojectdescription p {
-    text-align: center;
     font-size: 24px;
     font-family: 'Work Sans', sans-serif;
-}
-.helloproject .helloprojectdescription .button {
-    display: flex;
-    justify-content: center;
 }
 .helloproject .helloprojectdescription button {
     background-color: #e2e2e2;
@@ -61,20 +56,14 @@
 }
 .nisicproject {
     margin: 0 auto;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 80px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-bottom: 80px;
 }
 .nisicproject .nisicprojectdescription p {
-    text-align: center;
     font-size: 24px;
     font-family: 'Work Sans', sans-serif;
-}
-.nisicproject .nisicprojectdescription .button {
-    display: flex;
-    justify-content: center;
 }
 .nisicproject .nisicprojectdescription button {
     background-color: #e2e2e2;
@@ -85,20 +74,13 @@
 }
 .cookingmattersproject {
     margin: 0 auto;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 80px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 60% 40%;
 }
 .cookingmattersproject .cookingmattersprojectdescription p {
-    text-align: center;
     font-size: 24px;
     font-family: 'Work Sans', sans-serif;
-}
-.cookingmattersproject .cookingmattersprojectdescription .button {
-    display: flex;
-    justify-content: center;
 }
 .cookingmattersproject .cookingmattersprojectdescription button {
     background-color: #e2e2e2;
@@ -134,5 +116,58 @@
     }
     .navigation .menu .menuoptions {
         display: none;
+    }
+    .helloproject {
+        margin: 0 auto;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .helloproject .helloprojectdescription p {
+        font-size: 24px;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .helloproject .helloprojectdescription button {
+        background-color: #e2e2e2;
+        border-radius: 8px;
+        border: none;
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+    .nisicproject {
+        margin: 0 auto;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .nisicproject .nisicprojectdescription p {
+        font-size: 24px;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .nisicproject .nisicprojectdescription button {
+        background-color: #e2e2e2;
+        border-radius: 8px;
+        border: none;
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+    .cookingmattersproject {
+        margin: 0 auto;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    .cookingmattersproject .cookingmattersprojectdescription p {
+        font-size: 24px;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .cookingmattersproject .cookingmattersprojectdescription button {
+        background-color: #e2e2e2;
+        border-radius: 8px;
+        border: none;
+        padding: 10px 30px;
+        font-size: 18px;
     }
 }
